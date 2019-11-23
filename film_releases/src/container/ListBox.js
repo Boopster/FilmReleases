@@ -37,7 +37,9 @@ class ListBox extends Component {
     return(
       <div className="list-box">
         <ListItems data={this.state.data}/>
-        <button onclick="window.location.href = 'https://www.imdb.com/calendar/?region=gb';">View more upcoming releases</button>
+        <form action="https://www.imdb.com/calendar/?region=gb" method="get" target="_blank">
+         <button type="submit">View more upcoming releases</button>
+      </form>
       </div>
     );
   }
