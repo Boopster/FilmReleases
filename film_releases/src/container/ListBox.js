@@ -23,7 +23,8 @@ class ListBox extends Component {
         },
         {
           id: 4,
-          name: "The Lego Movie 2: The Second Part", url: "https://www.imdb.com/title/tt3513498/?ref_=rlm"
+          name: "The Lego Movie 2: The Second Part",
+          url: "https://www.imdb.com/title/tt3513498/?ref_=rlm"
         },
         {
           id: 5,
@@ -38,8 +39,8 @@ class ListBox extends Component {
       <div className="list-box">
         <ListItems data={this.state.data}/>
         <form action="https://www.imdb.com/calendar/?region=gb" method="get" target="_blank">
-         <button type="submit">View more upcoming releases</button>
-      </form>
+          <button type="submit">View more upcoming releases</button>
+         </form>
       </div>
     );
   }

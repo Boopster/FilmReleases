@@ -5,7 +5,7 @@ class ListItems extends Component {
   render() {
     const commentNodes = this.props.data.map( item => {
       return (
-        <ListItem name={item.name}></ListItem>
+        <ListItem name={item.name} url={item.url}></ListItem>
       );
     });
     return (

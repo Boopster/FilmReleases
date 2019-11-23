@@ -4,7 +4,7 @@ class ListItem extends Component {
   render() {
     return (
       <div className="list-item">
-          <li>{this.props.name}</li>
+          <li><a href={this.props.url}>{this.props.name}</a></li>
       </div>
     );
   }
