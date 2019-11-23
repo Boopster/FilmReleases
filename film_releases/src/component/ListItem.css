@@ -1,0 +1,10 @@
+a {
+  text-decoration: none;
+  color: rgb(19, 108, 178);
+  font-family:Verdana, Arial, sans-serif;
+  font-size:13px;
+}
+
+li {
+  padding: 10px;
+}

@@ -1,0 +1,33 @@
+.main-container {
+  display: flex;
+}
+
+h1 {
+  font-family:Verdana, Arial, sans-serif;
+  font-size:21px;
+}
+
+form {
+  display: flex;
+}
+
+button {
+  margin: auto;
+  padding: 20px;
+  width: 90%;
+  color: rgb(19, 108, 178);
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 13px;
+}
+
+.list-box {
+  margin: 20px auto 20px auto;
+  padding: 20px;
+  border: 2px solid black;
+  flex-direction: column;
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.3) 0%, transparent 7px);
+  background-color: #FFF;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}

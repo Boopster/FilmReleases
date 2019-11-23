@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ListItems from '../component/ListItems';
+import './ListBox.css';
 
 class ListBox extends Component {
   constructor(props) {
@@ -36,11 +37,14 @@ class ListBox extends Component {
   }
   render() {
     return(
-      <div className="list-box">
-        <ListItems data={this.state.data}/>
-        <form action="https://www.imdb.com/calendar/?region=gb" method="get" target="_blank">
-          <button type="submit">View more upcoming releases</button>
-         </form>
+      <div className="main-container">
+        <div className="list-box">
+          <h1>Upcoming Film Releases for UK</h1>
+          <ListItems data={this.state.data}/>
+          <form action="https://www.imdb.com/calendar/?region=gb" method="get" target="_blank">
+            <button type="submit">View more upcoming releases</button>
+          </form>
+        </div>
       </div>
     );
   }
